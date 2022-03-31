@@ -114,9 +114,13 @@ h1,
   line-height: 1.2;
 }
 
+section {
+  padding-top: 5rem;
+}
+
 .jumbotron {
-  padding-top: 2rem;
-  background-color: #e2edff;
+  padding-top: 6rem;
+  background-color: #efdcea;
 }
 
 h1,
