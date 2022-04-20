@@ -9,7 +9,7 @@ Vue.createApp({
   methods: {
     getJsonData() {
       axios
-        .get('https://raw.githubusercontent.com/firoos18/tekweb2022/main/assets/json/article.json')
+        .get('https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/assets/contents/article.json')
         .then((res) => {
           // console.log(res.data);
           this.jsondata = res.data;
