@@ -1,4 +1,4 @@
-MOON LOVERS
+## MOON LOVERS
 
 Moon Lovers atau judul lain Scarlet Heart Ryeo merupakan serial Korea pada tahun 2016. Drama ini menceritakan tentang seorang gadis dari abad modern bernama Go Ha jin yang terjebak perjalanan waktu ke era kerajaan Goryeo. Dia hampir tenggelam saat menyelamatkan anak yang terjatuh di sungai. Ketika bangun dia sudah berada dalam tubuh gadis bangsawan Goryeo bernama Hae Soo. Dia pun mau tidak mau hidup sebagai Hae Soo, gadis yang ternyata memiliki wujud yang sama persis dengannya.
 Hae Soo dikelilingi oleh tujuh pangeran, hampir semua berteman dengannya, ada satu yang menjadi 'musuh'nya, tapi hanya dua yang terlibat secara romantis dengannya, yaitu Wang So (Lee Joon Gi) dan Wang Wook (Kang Ha Neul). Selama ini Kehidupan Go Ha Jin sebagai Hae Soo berputar bagai roda, kadang senang, kadang sulit.
