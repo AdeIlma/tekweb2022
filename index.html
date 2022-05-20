@@ -18,23 +18,23 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #ed89d2;">
       <div class="container">
-        <a class="navbar-brand" href="#">{{portofolio}}</a>
+        <a class="navbar-brand" href="#">PORTOFOLIO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">{{home}}</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">{{about}}</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#article">{{article}}</a>
+              <a class="nav-link" href="#article">Article</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">{{contact}}</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -47,8 +47,8 @@
 
     <section class="jumbotron text-center">
       <img src="img/ilma3.jpeg" alt="Ade Ilma" width="200" class="rounded-circle img-thumbnail">
-      <h1 class="display-4 fw-bold" style="color: #ed89d2;">{{nama}}</h1>
-      <p class="lead">{{content}}</p>
+      <h1 class="display-4 fw-bold" style="color: #ed89d2;">Ade Ilma</h1>
+      <p class="lead">'Sistem Informasi | 2000016085'</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -65,15 +65,15 @@
     <div class="container">
       <div class="row text-center mb-4">
         <div class="col">
-          <h2>{{aboutme}}</h2>
+          <h2>About Me</h2>
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center">
         <div class="col-md-4">
-          <p>{{about1}}</p>
+          <p>Saya Ade Ilma berasal dari Kalimantan Utara. Umur saya 19 tahun lahir pada tanggal 21 September 2002.</p>
         </div>
         <div class="col-md-4">
-          <p>{{about2}}</p>
+          <p>Saya mahasiswa Prodi Sistem Informasi Fakultas Sains dan Teknologi Terapan. Universitas Ahmad Dahlan.</p>
         </div>
       </div>
     </div>
@@ -94,46 +94,25 @@
             <h2>Article</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
+        <div class="row" id="app" style="height: 500px;">
+          <div class="col-md-4 mb-3" v-for="data in articles">
             <div class="card">
-              <img src="img/BLACKPINK.jpg" class="card-img-top" alt="Article 1" />
+              <img :src="data.Thumbnail" class="card-img-top" alt="Article 1" />
               <div class="card-body">
-                <h5 class="card-title">{{title1}}</h5>
-                <p class="card-text">{{article1}}</p>
-                <a href="/md.html?markdownArticle=contents/blackpink.md" class="btn btn-primary">READ</a>
+                <h5 class="card-title">{{  data.Title  }}</h5>
+                <p class="card-text">{{ data.description }}</p>
+                <a :href="'./md.html?markdown=' + data.markdown" class="btn btn-primary">READ</a>
+                
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/ruto.jpg" class="card-img-top" alt="Article 2" />
-              <div class="card-body">
-                <h5 class="card-title">{{title2}}</h5>
-                <p class="card-text">{{article2}}</p>
-                <a href="/md.html?markdownArticle=contents/haruto.md" class="btn btn-primary">READ</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/moon.jpg" class="card-img-top" alt="Article 3" />
-              <div class="card-body">
-                <h5 class="card-title">{{title3}}</h5>
-                <p class="card-text">{{article3}}</p>
-                <a href="/md.html?markdownArticle=contents/moon.md" class="btn btn-primary" @click="toTheMarkdown()">READ</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,160L34.3,176C68.6,192,137,224,206,202.7C274.3,181,343,107,411,90.7C480,75,549,117,617,117.3C685.7,117,754,75,823,85.3C891.4,96,960,160,1029,181.3C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#ffff"
+              fill-opacity="1"
+              d="M0,160L34.3,176C68.6,192,137,224,206,202.7C274.3,181,343,107,411,90.7C480,75,549,117,617,117.3C685.7,117,754,75,823,85.3C891.4,96,960,160,1029,181.3C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+            ></path>
+          </svg>
     </section>
 
     <!-- akhir article -->
@@ -183,32 +162,7 @@
 
 
     <!-- Start of Vue App -->
-    <script type="module">
-      let app = Vue.createApp({
-        data: function () {
-          return {
-            article: {},
-          };
-        },
-        methods: {
-          getArticleData() {
-            axios
-              .get('https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/assets/contents/article.json')
-              .then((res) => {
-                // console.log(res.data);
-                this.article = res.data;
-              })
-              .catch((error) => {
-                console.log(error);
-              });
-          },
-        },
-        beforeMount() {
-          this.getArticleData();
-        },
-      });
-      app.mount('#app');
-    </script>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -218,7 +172,6 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="final.js"></script>
 
    
