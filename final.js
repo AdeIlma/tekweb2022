@@ -1,16 +1,15 @@
+let apiUrl = 'https://myapi.watanabeilma.my.id/index.php/';
 let app = Vue.createApp({
   data() {
     return {
       articles: {},
-      markdown: null
-    }
+      markdown: null,
+    };
   },
   methods: {
     getArticleData() {
       axios
-        .get(
-          "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/assets/contents/article.json"
-        )
+        .get(apiUrl + '/articles')
         .then((res) => {
           this.articles = res.data;
           console.log(res.data);
@@ -18,10 +17,10 @@ let app = Vue.createApp({
         .catch((error) => {
           console.log(error);
         });
-    }
+    },
   },
   beforeMount() {
-    this.getArticleData()
-  }
-})
+    this.getArticleData();
+  },
+});
 app.mount('#app');
