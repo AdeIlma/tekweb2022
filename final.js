@@ -1,4 +1,4 @@
-let apiUrl = "https://myapi.watanabeilma.my.id/index.php/";
+let apiUrl = "http://myapi.watanabeilma.my.id/index.php/";
 let app = Vue.createApp({
   data() {
     return {
@@ -9,7 +9,7 @@ let app = Vue.createApp({
   methods: {
     getArticleData() {
       axios
-        .get(apiUrl + "/articles")
+        .get(apiUrl+"/articles")
         .then((res) => {
           this.articles = res.data;
           console.log(res.data);
