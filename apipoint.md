@@ -156,3 +156,12 @@ false   //if false
 
 # DATABASE DESIGN
 ![Design Database](https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/user.png)
+
+# TAMBAHAN
+[PADA WEBSITE HOSTING] (https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/web.png)
+Pada Website hosting yang saya punya, saya sudah memasukkan url myapi, tetapi artikelnya masih tidak mau
+terpanggil malahan yang terpanggil masih berbentuk json. saya juga sudah menggunakan source code
+cors origin yang bapak sarankan, tetapi hanya dapat terpanggil pada github yang saya punya.
+[PADA GITHUB] (https://github.com/AdeIlma/tekweb2022/blob/main/img/github.png)
+Ini adalah bukti jika table artikel yang saya buat hanya dapat terpanggil di github yang saya punya. 
+saya sudah mencoba untuk memperbaiki tetapi masih belum bisa dan ini diluar kemampuan saya. 
