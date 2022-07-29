@@ -164,4 +164,5 @@ terpanggil malahan yang terpanggil masih berbentuk json. saya juga sudah menggun
 cors origin yang bapak sarankan, tetapi hanya dapat terpanggil pada github yang saya punya.
 [PADA GITHUB] (https://github.com/AdeIlma/tekweb2022/blob/main/img/github.png)
 Ini adalah bukti jika table artikel yang saya buat hanya dapat terpanggil di github yang saya punya. 
-saya sudah mencoba untuk memperbaiki tetapi masih belum bisa dan ini diluar kemampuan saya. 
+saya sudah mencoba untuk memperbaiki tetapi masih belum bisa dan ini diluar kemampuan saya.
+link github saya (https://adeilma.github.io/tekweb2022/)
