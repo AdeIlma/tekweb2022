@@ -73,7 +73,9 @@ DELETE: /article
 response:
 true    //if true
 false   //if false
-ps : saat perintah delete terjadi error 405, dimana saya sudah mengecek routes.php, articlemodel.php dan article.php tetapi tidak menemukan kesalahannya dimana dan saya juga sudah menanyakan kepada teman-teman yang sekiranya lebih tahu tepapi masi belum menemukan kesalahnnya, sehingga saya mengumpulkan uji coba api tester dengan delete yang error. 
+ps : saat perintah delete terjadi error 405, dimana saya sudah mengecek routes.php, articlemodel.php dan article.php tetapi tidak 
+menemukan kesalahannya dimana dan saya juga sudah menanyakan kepada teman-teman yang sekiranya lebih tahu tepapi masi belum menemukan 
+kesalahnnya, sehingga saya mengumpulkan uji coba api tester dengan delete yang error. 
 ```
 
 # DATABASE DESIGN
