@@ -92,10 +92,10 @@
         <div class="row" id="app">
           <div class="col-md-4 mb-3" v-for="data in articles">
             <div class="card">
-              <img :src="data.Thumbnail" class="card-img-top" alt="Article 1" />
+              <img :src="data.thumbnail" class="card-img-top" alt="Article 1" />
               <div class="card-body">
-                <h5 class="card-title">{{  data.Title  }}</h5>
-                <p class="card-text">{{ data.description }}</p>
+                <h5 class="card-title">{{  data.title  }}</h5>
+                <p class="card-text">{{ data.isi }}</p>
                 <a :href="'./md.html?markdown=' + data.markdown" class="btn btn-primary">READ</a>  
                 
               </div>
