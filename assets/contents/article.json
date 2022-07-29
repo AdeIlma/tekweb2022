@@ -1,23 +1,23 @@
 [
   {
-    "ID": "1",
-    "Title": "BLACKPINK",
-    "Thumbnail": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/BLACKPINK.jpg",
-    "description": "BLACKPINK adalah sebuah grup vokal wanita asal Korea Selatan. Dibentuk oleh YG Entertainment dengan beranggotakan empat orang, yaitu Jennie, Jisoo, Lisa, dan Rosé.",
+    "id": "1",
+    "title": "BLACKPINK",
+    "thumbnail": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/BLACKPINK.jpg",
+    "isi": "BLACKPINK adalah sebuah grup vokal wanita asal Korea Selatan. Dibentuk oleh YG Entertainment dengan beranggotakan empat orang, yaitu Jennie, Jisoo, Lisa, dan Rosé.",
     "markdown": "blackpink.md"
   },
   {
-    "ID": "2",
-    "Title": "Watanabe Haruto",
-    "Thumbnail": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/ruto.jpg",
-    "description": "Haruto adalah penyanyi asal Jepang yang aktif melalui grup vokal Korea Selatan, TREASURE yang dibawah asuhan YG Entertainment. Lahir pada 5 April 2004.",
+    "id": "2",
+    "title": "Watanabe Haruto",
+    "thumbnail": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/ruto.jpg",
+    "gambar": "Haruto adalah penyanyi asal Jepang yang aktif melalui grup vokal Korea Selatan, TREASURE yang dibawah asuhan YG Entertainment. Lahir pada 5 April 2004.",
     "markdown": "haruto.md"
   },
   {
-    "ID": "3",
-    "Title": "Moon Lovers",
-    "Thumbnail": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/moon.jpg",
-    "description": "Moon Lovers adalah sebuah serial yang menceritakan seorang wanita yang berasal dari abad ke-21, Go Ha-jin, kembali ke masa Dinasti Goryeo.",
+    "id": "3",
+    "title": "Moon Lovers",
+    "thumbnail": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/moon.jpg",
+    "isi": "Moon Lovers adalah sebuah serial yang menceritakan seorang wanita yang berasal dari abad ke-21, Go Ha-jin, kembali ke masa Dinasti Goryeo.",
     "markdown": "moon.md"
   }
 ]
