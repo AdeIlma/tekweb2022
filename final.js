@@ -33,7 +33,7 @@ let app = Vue.createApp({
   },
   beforeMount() {
     this.getArticleData();
-    this.getPortofolioData();
+    this.getPortofolio();
   },
 });
 app.mount('#app');
