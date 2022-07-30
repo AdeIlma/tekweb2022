@@ -22,16 +22,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Article">Article</a>
+              <a class="nav-link" href="#article">Article</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -112,7 +114,40 @@
           </svg>
     </section>
 	
-	 <!-- awal article -->
+	 <!-- akhir article -->
+	  
+	  <!-- Awal portofolio -->
+ <section id="portofolio">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2>Portofolio</h2>
+      </div>
+    </div>
+    <div class="row" id="app">
+      <div class="col-md-4 mb-3" v-for="data in articles">
+        <div class="card">
+          <img :src="data.gambar" class="card-img-top" alt="Article 1" />
+          <div class="card-body">
+            <h5 class="card-title">{{  data.judul  }}</h5>
+            <p class="card-text">{{ data.isi }}</p>
+            <a :href="data.url" class="btn btn-primary">READ</a>  
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path
+      fill="#ffff"
+      fill-opacity="1"
+      d="M0,160L34.3,176C68.6,192,137,224,206,202.7C274.3,181,343,107,411,90.7C480,75,549,117,617,117.3C685.7,117,754,75,823,85.3C891.4,96,960,160,1029,181.3C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+    ></path>
+  </svg>
+</section>
+
+<!-- akhir portofolio -->
 	
 	 <!-- awal contact -->
      <section id="contact">
