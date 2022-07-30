@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "judul": "PROJECT IMK",
+        "gambar": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/figma.png",
+        "isi": "Ini meruapakan project akhir kelompok dari matakuliah IMK. Project ini bertemakan Sosial dan Kesehatan.  ",
+        "url": "https://www.figma.com/file/ZruYUGQdjZLbfxLscATuhE/PROJECT-HOPE?node-id=0%3A1"
+    },
+    {
+        "id": "2",
+        "judul": "PROJECT TEKWEB",
+        "gambar": "https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/project.png",
+        "isi": "Ini merupakan project akhir kelompok dari matakuliah tekweb. Project ini bekerja sama dengan Arutala Coffee.",
+        "url": "https://shznnn.github.io/unexpected/"
+    }
+]
