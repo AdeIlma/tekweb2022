@@ -7,6 +7,17 @@ let app = Vue.createApp({
     };
   },
   methods: {
+    getPortofolioData() {
+      axios
+        .get(apiUrl+"portofolio")
+        .then((res) => {
+          this.portofolio = res.data;
+          console.log(res.data);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    }, 
     getArticleData() {
       axios
         .get(apiUrl+"articles")
@@ -21,6 +32,7 @@ let app = Vue.createApp({
   },
   beforeMount() {
     this.getArticleData();
+    this.getPortofolioData();
   },
 });
 app.mount('#app');
