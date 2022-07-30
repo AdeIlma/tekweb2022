@@ -3,6 +3,7 @@ let app = Vue.createApp({
   data() {
     return {
       articles: {},
+      portofolio{},
       markdown: null,
     };
   },
