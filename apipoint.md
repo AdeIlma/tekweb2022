@@ -157,3 +157,84 @@ false   //if false
 # DATABASE DESIGN
 ![Design Database](https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/user.png)
 
+## PORTOFOLIO
+### Menampilkan seluruh portofolio
+```
+GET: /portofolio
+
+response:
+[
+  {
+    "id"        : "",
+    "judul"     : "",
+    "gambar"    : "",  
+    "isi"       : "",
+    "url"       : ""
+  },
+  {
+    ...
+  }
+]
+```
+### Menampilkan portofolio berdasarkan ```id```
+```
+GET: /portofolio/[id]
+
+response:
+{
+    "id"        : "",
+    "judul"     : "",
+    "gambar"    : "",  
+    "isi"       : "",
+    "url"       : ""
+}
+```
+### Menambahkan portofolio
+```
+POST: /portofolio
+
+data:
+{
+    "id"        : "",
+    "judul"     : "",
+    "gambar"    : "",  
+    "isi"       : "",
+    "url"       : ""
+}
+
+response:
+true    //if true
+false   //if false
+```
+### Mengubah portofolio
+```
+PUT: /portofolio
+
+data:
+{
+    "id"        : "",
+    "judul"     : "",
+    "gambar"    : "",  
+    "isi"       : "",
+    "url"       : ""
+}
+
+response:
+true    //if true
+false   //if false
+```
+### Menghapus portofolio
+```
+DELETE: /portofolio
+
+response:
+true    //if true
+false   //if false
+ps : saat perintah delete terjadi error 405, dimana saya sudah mengecek routes.php, portofoliomodel.php dan portofolio.php tetapi tidak 
+menemukan kesalahannya dimana dan saya juga sudah menanyakan kepada teman-teman yang sekiranya lebih tahu tepapi masi belum menemukan 
+kesalahnnya, sehingga saya mengumpulkan uji coba api tester dengan delete yang error. 
+```
+
+# DATABASE DESIGN
+![Design Database](https://raw.githubusercontent.com/AdeIlma/tekweb2022/main/img/portofolio.png)
+
