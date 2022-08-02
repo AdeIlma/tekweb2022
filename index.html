@@ -127,11 +127,11 @@
     <div class="row" id="app">
       <div class="col-md-4 mb-3" v-for="data in portofolios">
         <div class="card">
-          <img :src="portofolios.gambar" class="card-img-top" alt="Article 1" />
+          <img :src="portofolio.gambar" class="card-img-top" alt="Article 1" />
           <div class="card-body">
-            <h5 class="card-title">{{  portofolios.judul  }}</h5>
-            <p class="card-text">{{ portofolios.isi }}</p>
-            <a :href="portofolios.url" class="btn btn-primary">READ</a>  
+            <h5 class="card-title">{{  portofolio.judul  }}</h5>
+            <p class="card-text">{{ portofolio.isi }}</p>
+            <a :href="portofolio.url" class="btn btn-primary">READ</a>  
             
           </div>
         </div>
