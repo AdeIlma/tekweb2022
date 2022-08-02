@@ -3,12 +3,12 @@ let app = Vue.createApp({
   data() {
     return {
       articles: {},
-      portofolios: {},
+      portofolios: [],
       markdown: null,
     };
   },
   methods: {
-    getPortofolioData() {
+    getPortofolio() {
       axios
         .get(apiUrl+"portofolio")
         .then((res) => {
