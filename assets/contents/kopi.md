@@ -1,4 +1,4 @@
 ##Arutala coffee X Unexpexted Team
 
 Arutala coffe merupakan sebuah brand yang menjual berbagai jenis beans kopi dan juga peralatan mengenai kopi. Sedangkan Unexpexted Team adalah sebuah tim terdiri dari 2 orang yang bertugas membuat website dari produk Arutala coffee.  Konsep kami adalah membuat sebuah website yang menjual berbagai beans kopi. Namun, dikarenakan kita belum mempunyai brand sendiri, Maka kami ingin meminjam Brand dari Arutala Cofee. Untuk desain kami menggunakan insep interaktif design untuk memajakan User, dengan menampilkan tombol-tombol dan juga design yang interaktif. Webite kami mempunyai ukuran dengan lebar 1.900px namun, website kami juga mempunyai support untuk resolusi dibawah 1.900px dengan berbagai penyesuaian. Dan untuk program kami menggunakan bermacam Bahasa dalam menbuat project ini. Kami menggunakan HTML, CSS dan Javascript untuk sector Front-end dan menggunakan PHP untuk sector Back-end. 
-link website: [Unexpexted Team](https://shznnn.github.io/unexpected/)
+## link website: [Unexpexted Team](https://shznnn.github.io/unexpected/)
